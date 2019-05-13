@@ -149,6 +149,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="..\SR544\utilities\DDS.h" />
     <ClInclude Include="..\SR544\utilities\display.h" />
     <ClInclude Include="..\SR544\utilities\frontpanel.h" />
     <ClInclude Include="..\SR544\utilities\instrument.h" />
@@ -158,6 +159,7 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\SR544\utilities\DDS.c" />
     <ClCompile Include="..\SR544\utilities\display.c" />
     <ClCompile Include="..\SR544\utilities\frontpanel.c" />
     <ClCompile Include="..\SR544\utilities\instrument.c" />
