@@ -36,6 +36,12 @@
     <ClInclude Include="..\SR544\utilities\motorDrive.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\SR544\utilities\DDS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SR544\utilities\motor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -54,6 +60,12 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="motorDrive_win32.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SR544\utilities\DDS.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SR544\utilities\motor.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

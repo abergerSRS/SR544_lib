@@ -5,13 +5,13 @@
 #include "motorDrive.h"
 
 uint8_t get_N_outer(void) {
-	return 0;
+	return 6;
 }
 
 uint8_t get_N_inner(void) {
-	return 0;
+	return 5;
 }
 
 float get_shaftSpeed(void) {
-	return 1.0f;
+	return 10.0f;
 }

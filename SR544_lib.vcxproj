@@ -153,6 +153,7 @@
     <ClInclude Include="..\SR544\utilities\display.h" />
     <ClInclude Include="..\SR544\utilities\frontpanel.h" />
     <ClInclude Include="..\SR544\utilities\instrument.h" />
+    <ClInclude Include="..\SR544\utilities\motor.h" />
     <ClInclude Include="..\SR544\utilities\motorDrive.h" />
     <ClInclude Include="..\SR544\utilities\tokenTable.h" />
     <ClInclude Include="stdafx.h" />
@@ -163,6 +164,7 @@
     <ClCompile Include="..\SR544\utilities\display.c" />
     <ClCompile Include="..\SR544\utilities\frontpanel.c" />
     <ClCompile Include="..\SR544\utilities\instrument.c" />
+    <ClCompile Include="..\SR544\utilities\motor.c" />
     <ClCompile Include="..\SR544\utilities\tokenTable.c" />
     <ClCompile Include="motorDrive_win32.c" />
     <ClCompile Include="stdafx.cpp">
