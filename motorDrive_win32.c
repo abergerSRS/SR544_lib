@@ -1,4 +1,4 @@
-/* MOTORDRIVE.c */
+/* MOTORDRIVE_WIN32.c */
 
 #include <stdint.h>
 
