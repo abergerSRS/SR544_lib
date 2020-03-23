@@ -150,6 +150,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="..\SR544\board\flash_kinetis.h" />
+    <ClInclude Include="..\SR544\utilities\circBuffer.h" />
+    <ClInclude Include="..\SR544\utilities\cmdTable.h" />
     <ClInclude Include="..\SR544\utilities\common.h" />
     <ClInclude Include="..\SR544\utilities\config.h" />
     <ClInclude Include="..\SR544\utilities\dbAssert.h" />
@@ -163,16 +165,22 @@
     <ClInclude Include="..\SR544\utilities\motor.h" />
     <ClInclude Include="..\SR544\utilities\motorDrive.h" />
     <ClInclude Include="..\SR544\utilities\movAvgReuse.h" />
+    <ClInclude Include="..\SR544\utilities\parser.h" />
     <ClInclude Include="..\SR544\utilities\PID.h" />
     <ClInclude Include="..\SR544\utilities\PLL.h" />
     <ClInclude Include="..\SR544\utilities\queues.h" />
+    <ClInclude Include="..\SR544\utilities\remoteIfx.h" />
+    <ClInclude Include="..\SR544\utilities\simple_commands.h" />
     <ClInclude Include="..\SR544\utilities\sineLUT_12bit.h" />
     <ClInclude Include="..\SR544\utilities\status.h" />
+    <ClInclude Include="..\SR544\utilities\tokenHandling.h" />
     <ClInclude Include="..\SR544\utilities\tokenTable.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\SR544\utilities\circBuffer.c" />
+    <ClCompile Include="..\SR544\utilities\cmdTable.c" />
     <ClCompile Include="..\SR544\utilities\DDS.c" />
     <ClCompile Include="..\SR544\utilities\display.c" />
     <ClCompile Include="..\SR544\utilities\frontpanel.c" />
@@ -181,15 +189,20 @@
     <ClCompile Include="..\SR544\utilities\instrument.c" />
     <ClCompile Include="..\SR544\utilities\motor.c" />
     <ClCompile Include="..\SR544\utilities\movAvgReuse.c" />
+    <ClCompile Include="..\SR544\utilities\parser.c" />
     <ClCompile Include="..\SR544\utilities\PID.c" />
     <ClCompile Include="..\SR544\utilities\PLL.c" />
     <ClCompile Include="..\SR544\utilities\queues.c" />
+    <ClCompile Include="..\SR544\utilities\remoteIfx.c" />
+    <ClCompile Include="..\SR544\utilities\simple_commands.c" />
     <ClCompile Include="..\SR544\utilities\sineLUT_12bit.c" />
     <ClCompile Include="..\SR544\utilities\status.c" />
+    <ClCompile Include="..\SR544\utilities\tokenHandling.c" />
     <ClCompile Include="..\SR544\utilities\tokenTable.c" />
     <ClCompile Include="assert_win32.c" />
     <ClCompile Include="flash_win32.c" />
     <ClCompile Include="hal_win32.c" />
+    <ClCompile Include="motorDrive_win32.c" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>

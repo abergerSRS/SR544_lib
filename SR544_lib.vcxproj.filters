@@ -81,6 +81,24 @@
     <ClInclude Include="..\SR544\utilities\movAvgReuse.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\SR544\utilities\parser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SR544\utilities\remoteIfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SR544\utilities\circBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SR544\utilities\cmdTable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SR544\utilities\simple_commands.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SR544\utilities\tokenHandling.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -135,6 +153,27 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\SR544\utilities\movAvgReuse.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SR544\utilities\parser.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SR544\utilities\remoteIfx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SR544\utilities\circBuffer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SR544\utilities\cmdTable.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SR544\utilities\simple_commands.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SR544\utilities\tokenHandling.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="motorDrive_win32.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
