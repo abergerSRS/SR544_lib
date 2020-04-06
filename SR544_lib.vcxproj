@@ -151,6 +151,7 @@
   <ItemGroup>
     <ClInclude Include="..\SR544\board\flash_kinetis.h" />
     <ClInclude Include="..\SR544\board\io_kinetis.h" />
+    <ClInclude Include="..\SR544\utilities\ADC.h" />
     <ClInclude Include="..\SR544\utilities\circBuffer.h" />
     <ClInclude Include="..\SR544\utilities\cmdTable.h" />
     <ClInclude Include="..\SR544\utilities\common.h" />
@@ -180,6 +181,7 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\SR544\utilities\ADC.c" />
     <ClCompile Include="..\SR544\utilities\circBuffer.c" />
     <ClCompile Include="..\SR544\utilities\cmdTable.c" />
     <ClCompile Include="..\SR544\utilities\DDS.c" />

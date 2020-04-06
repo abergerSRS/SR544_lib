@@ -159,9 +159,6 @@ uint32_t CalculateCrc32(uint32_t *data, uint32_t dataLengthBytes)
 }
 
 void InitiateADCconversion(void) {}
-void SetADCconversionIsReady(void) {}
-void ClearADCconversionIsReady(void) {}
-bool IsADCconversionReady(void) { return true; }
 void SaveADCValue(void) {}
 uint32_t GetADCLatestValue(void) { return 0; }
 
