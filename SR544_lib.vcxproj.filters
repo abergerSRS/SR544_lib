@@ -188,5 +188,8 @@
     <ClCompile Include="..\SR544\utilities\ADC.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\SR544\utilities\common.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

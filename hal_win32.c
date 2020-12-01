@@ -90,6 +90,10 @@ void SetSWSyncTrigger(void)
 
 }
 
+void EnableSumAndDiffRefOut(bool enable)
+{
+    
+}
 void SelectInputEdge(syncEdge_e edge)
 {
 
@@ -100,6 +104,10 @@ void EnableAllEncEdges(bool enable)
 
 }
 
+void SelectEncEdgesToDetect(encEdges_e edges)
+{
+    
+}
 
 uint8_t DisableIRQsLowerThan(uint8_t level)
 {
@@ -128,8 +136,9 @@ void EnableRelayDriver(void) {}
 void DisableRelayDriver(void) {}
 void ConfigureRelayForTTL(void) {}
 void ConfigureRelayForSine(void) {}
+void SetSourceMuxToAcLine(bool bSelectAcLine) {}
 void ToggleBuzzer(void) {}
-void EnableChopHead(bool enable) {}
+void EnableChop5V(bool enable) {}
 void PulseChopSwitchCtrl(void) {}
 void EnableCurrentSource(bool enable) {}
 
