@@ -23,13 +23,13 @@
     <ProjectGuid>{943C0B38-1317-4C59-B089-1049686D1DEB}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>SR544lib</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v141</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
@@ -90,7 +90,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>FP_SIM;WIN32;CONFIGURATION=2;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>..\SR544\board;..\SR544\utilities;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\SR544\board;..\SR544\utilities;..\SR544\source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -151,6 +151,7 @@
   <ItemGroup>
     <ClInclude Include="..\SR544\board\flash_kinetis.h" />
     <ClInclude Include="..\SR544\board\io_kinetis.h" />
+    <ClInclude Include="..\SR544\source\SR544.h" />
     <ClInclude Include="..\SR544\utilities\ADC.h" />
     <ClInclude Include="..\SR544\utilities\cal.h" />
     <ClInclude Include="..\SR544\utilities\circBuffer.h" />
@@ -210,6 +211,7 @@
     <ClCompile Include="hal_win32.c" />
     <ClCompile Include="io_win32.c" />
     <ClCompile Include="motorDrive_win32.c" />
+    <ClCompile Include="SR544_win32.c" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
